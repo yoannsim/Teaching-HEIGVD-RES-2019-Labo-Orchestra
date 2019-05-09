@@ -44,7 +44,7 @@ function startRandomMusician(musicianHasStarted) {
  */
 function askAuditorForActiveInstruments(activeInstrumentsHaveBeenRetrieved) {
 	function invokeTcpInterface(auditorContainer, activeMusiciansHaveBeenFetched) {
-		//console.log(JSON.stringify(auditorContainer, null, ' '));
+		console.log(JSON.stringify(auditorContainer, null, ' '));
 		var auditorIPAddress = auditorContainer.NetworkSettings.Networks.bridge.IPAddress;
 		var client = new net.Socket();
 		var payload = "";
