@@ -27,7 +27,7 @@ var s = dgram.createSocket('udp4');
 function Musician(sound) {
 
 
-	let id = uid.v4();
+	const id = uid.v4();
 /*
    * We will simulate temperature changes on a regular basis. That is something that
    * we implement in a class method (via the prototype)
@@ -51,7 +51,7 @@ function Musician(sound) {
                * Finally, let's encapsulate the payload in a UDP datagram, which we publish on
                * the multicast address. All subscribers to this address will receive the message.
                */
-		let message = new Buffer(payload);
+		const message = new Buffer(payload);
 		s.send(message, 0, message.length, protocol.PROTOCOL_PORT, protocol.PROTOCOL_MULTICAST_ADDRESS, function(err, bytes) {
 			console.log("Sending payload: " + payload + " via port " + s.address().port);
 		});

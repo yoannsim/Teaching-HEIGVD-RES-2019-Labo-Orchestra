@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cb4a0d5-282b-4544-b281-e48664c29c7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Auditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Musician.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/musique-protocol.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker/image-auditor/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/image-auditor/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker/image-musician/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/image-musician/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker/image-validation/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/image-validation/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../validate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../validate.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Auditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Auditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Musician.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Musician.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +39,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Auditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+            <state relative-caret-position="144">
+              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Musician.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="79" column="2" lean-forward="true" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
+            <state relative-caret-position="400">
+              <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -113,6 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -181,7 +179,7 @@
       <workItem from="1557090965565" duration="1413000" />
       <workItem from="1557128798406" duration="1332000" />
       <workItem from="1557133050639" duration="3639000" />
-      <workItem from="1557406508630" duration="504000" />
+      <workItem from="1557406508630" duration="2520000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1556540567262</created>
@@ -194,7 +192,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27930000" />
+    <option name="totallyTimeSpent" value="29847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -206,7 +204,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5008183" side_tool="true" weight="0.16369048" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32405892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32242227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,8 +265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Musician.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="79" column="2" lean-forward="true" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
+        <state relative-caret-position="400">
+          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -277,8 +275,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Auditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428">
-          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        <state relative-caret-position="144">
+          <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

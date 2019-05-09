@@ -55,9 +55,9 @@ s.bind(protocol.PROTOCOL_PORT, function() {
 s.on('message', function(msg, source) {
 
     const jmessage = JSON.parse(msg);
-    let uid =jmessage['id'];
+    const uid =jmessage['id'];
 
-    let instru = instrum.get(jmessage['sound']);;
+    const instru = instrum.get(jmessage['sound']);;
 
 
 
@@ -92,7 +92,7 @@ const server = net.createServer(function (socket) {
         const start = timeMap.get(k);
         const end = Date.now();
 
-        if (end - start < 10000) {
+        if (end - start < 5000) {
             jsonres.push(v);
         }
     });
